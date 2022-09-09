@@ -6,11 +6,12 @@
 
 /**
  
- *	* main - Entry point
+ * main - Entry point
  
- *	* Description: prints  if a number is positive or negative.
+ * Description: prints  if a number is positive or negative.
  
- *	* Return: Always 0 (Successs/correct)
+ * Return: Always 0 (Successs/correct)
+ 
  **/
 
 
