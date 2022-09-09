@@ -1,31 +1,67 @@
 #include <stdlib.h>
+
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+#include <stdio.h>
+
+
+
+/**
+ *
+ *  * main - Entry point
+ *
+ *   * Description: prints  if a number is positive or negative.
+ *
+ *    * Return: Always 0 (Successs/correct)
+ *
+ *     */
+
+
+
 int main(void)
+
 {
-	int n;
-	int digit;
 
-	srand(time(0));
-	
-	n = rand() - RAND_MAX / 2;
+		int n;
 
-	digit = n % 10;
 
-	if (digit > 5){
 
-	printf("Last digit of %d is %d and is greater than 5\n", n, digit);
-	
-	}else if (digit == 0){
-	
-	printf("Last digit of %d is %d and is 0\n", n, digit);
-	
-	}else if(digit < 6 && digit != 0){
-	
-	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digit);
-}
+			srand(time(0));
 
-	return (0);
+				n = rand() - RAND_MAX / 2;
+
+
+
+					if (n == 0)
+
+							{
+
+										printf("%i is zero\n", n);
+
+											}
+
+
+
+						else if (n < 0)
+
+								{
+
+											printf("%i is negative\n", n);
+
+												}
+
+
+
+							else
+
+									{
+
+												printf("%i is positive\n", n);
+
+													}
+
+								return (0);
+
+
+
 }
