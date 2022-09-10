@@ -11,8 +11,8 @@ int main(void)
 
 	for (d = 1; d < 90; d++)
 	{
-		putchar((d / 10) + '48');
-		putchar((d % 10) + '48');
+		putchar((d / 10) + '0');
+		putchar((d % 10) + '0');
 		if (d != 90)
 		{
 			putchar(',');
