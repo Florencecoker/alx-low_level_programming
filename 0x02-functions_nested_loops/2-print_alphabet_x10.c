@@ -1,25 +1,25 @@
 #include "main.h"
 
 /**
-*main - alphabet
-*print_alphabet_x10-print a - z ten times
-*/
-
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
+ */
 void print_alphabet_x10(void)
-
 {
+	char ch;
 	int i;
-	char j;
 
-for(i=0;i<10;i++)
+	i = 0;
 
-{
-
-for (j='a';j<='z';j++)
-{
-	putchar(j);
-}
-	putchar('\n');
-}
-
+	while (i < 10)
+	{
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
+	}
 }
