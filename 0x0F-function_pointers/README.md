@@ -1,13 +1,11 @@
 This project in the Low Level Programming series is about:
 
+Write a function that prints a name.
 
+Write a function that executes a function given as a parameter on each element of an array.
 
-What are function pointers and how to use them
+Write a function that searches for an integer.
 
+Write a program that performs simple operations.
 
-
-What does a function pointer exactly hold
-
-
-
-Where does a function pointer point to in the virtual memory
+Write a program that prints the opcodes of its own main function.
